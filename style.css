@@ -1,15 +1,39 @@
-* {
-    box-sizing: border-box;
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    text-align: center;
     margin: 0;
     padding: 0;
 }
 
 
-body {
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid gray;
 }
 
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+ul li {
+    margin-right: 12px;
+}
+
+a {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+
+
+
+/*
 li {
     list-style: none;
 }
@@ -22,9 +46,9 @@ a {
 .ajuste-nav {
     display: flex;
     width: 100%;
-    height: 125px;
+    height: 12px;
     padding: 8px;
-    padding-bottom: 32px;
+    padding-bottom: 68px;
     padding-top: 32px;
     background: #aea4b0;
 }
@@ -41,7 +65,11 @@ a {
     background-image: url('/img/Faeterj-Vasco.png');
     background-size: cover;
     background-repeat: no-repeat;
-    height: 200%;
+    width: 100%;
+    height: 12px;
+    padding: 8px;
+    padding-bottom: 32px;
+    padding-top: 32px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -65,6 +93,13 @@ a {
     text-decoration: inherit;
 }
 
+
+.texto-principal {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+    text-align: justify;
+}
+
 .rodape {
 
     font-size: 16px;
@@ -80,3 +115,5 @@ footer {
     line-height: 55px;
     width: 100%;
 }
+
+*/
